@@ -4,9 +4,9 @@
       <feGaussianBlur stdDeviation="46"/>
     </filter>
     <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity="0.38"/>
-      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="0" stop-color="#3a3a46" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#16161d" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#0a0a10" stop-opacity="0.70"/>
     </linearGradient>
     <radialGradient id="b1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
     <radialGradient id="b2"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
@@ -29,10 +29,10 @@
     <animate attributeName="cy" values="220;150;220" dur="15s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- 磨砂玻璃面板 -->
-  <rect x="30" y="38" width="790" height="184" rx="36" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5"/>
-  <rect x="30" y="38" width="790" height="92" rx="36" fill="#ffffff" opacity="0.06"/>
+  <!-- 黑色磨砂玻璃面板 -->
+  <rect x="30" y="38" width="790" height="184" rx="36" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.28" stroke-width="1.5"/>
+  <rect x="30" y="38" width="790" height="80" rx="36" fill="#8b8ba7" opacity="0.10"/>
 
-  <text x="425" y="128" text-anchor="middle" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Hi, I'm 胡俊成</text>
-  <text x="425" y="172" text-anchor="middle" font-family="Consolas, monospace" font-size="19" fill="#ffffff" fill-opacity="0.82">Agent Engineer · Java / Python Backend · Front-end</text>
+  <text x="425" y="128" text-anchor="middle" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="46" font-weight="700" fill="#f4f4f8">Hi, I'm 胡俊成</text>
+  <text x="425" y="172" text-anchor="middle" font-family="Consolas, monospace" font-size="19" fill="#c9c9d8">Agent Engineer · Java / Python Backend · Front-end</text>
 </svg>
