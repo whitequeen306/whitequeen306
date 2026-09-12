@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="260" viewBox="0 0 850 260">
+  <defs>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="46"/>
+    </filter>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.38"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.16"/>
+    </linearGradient>
+    <radialGradient id="b1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b2"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b3"><stop offset="0" stop-color="#f472b6"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b4"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <!-- 液态光斑 -->
+  <circle cx="150" cy="60" r="130" fill="url(#b1)" filter="url(#blur)">
+    <animate attributeName="cx" values="150;260;150" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="60;120;60" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="200" r="140" fill="url(#b2)" filter="url(#blur)">
+    <animate attributeName="cx" values="700;600;700" dur="16s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="620" cy="40" r="110" fill="url(#b3)" filter="url(#blur)">
+    <animate attributeName="cy" values="40;110;40" dur="12s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="330" cy="220" r="120" fill="url(#b4)" filter="url(#blur)">
+    <animate attributeName="cy" values="220;150;220" dur="15s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- 磨砂玻璃面板 -->
+  <rect x="30" y="38" width="790" height="184" rx="36" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.45" stroke-width="1.5"/>
+  <rect x="30" y="38" width="790" height="92" rx="36" fill="#ffffff" opacity="0.06"/>
+
+  <text x="425" y="128" text-anchor="middle" font-family="Segoe UI, PingFang SC, Microsoft YaHei, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Hi, I'm 胡俊成</text>
+  <text x="425" y="172" text-anchor="middle" font-family="Consolas, monospace" font-size="19" fill="#ffffff" fill-opacity="0.82">Agent Engineer · Java / Python Backend · Front-end</text>
+</svg>

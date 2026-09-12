@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="286" viewBox="0 0 850 286">
+  <defs>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="42"/>
+    </filter>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.10"/>
+    </linearGradient>
+    <radialGradient id="b1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b2"><stop offset="0" stop-color="#f472b6"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b3"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+  </defs>
+
+  <circle cx="110" cy="50" r="110" fill="url(#b1)" filter="url(#blur)"/>
+  <circle cx="760" cy="240" r="120" fill="url(#b2)" filter="url(#blur)"/>
+  <circle cx="720" cy="40" r="90" fill="url(#b3)" filter="url(#blur)"/>
+
+  <rect x="16" y="14" width="818" height="258" rx="30" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.4" stroke-width="1.5"/>
+
+  <text x="52" y="66" font-family="Segoe UI, PingFang SC, sans-serif" font-size="24" font-weight="700" fill="#ffffff">🔮 About Me</text>
+  <line x1="52" y1="84" x2="798" y2="84" stroke="#ffffff" stroke-opacity="0.28"/>
+
+  <g font-family="Consolas, monospace" font-size="16">
+    <text x="52" y="120" fill="#a5b4fc" font-weight="700">name</text>
+    <text x="140" y="120" fill="#ffffff" fill-opacity="0.92">胡俊成（whitequeen306）</text>
+
+    <text x="52" y="154" fill="#67e8f9" font-weight="700">focus</text>
+    <text x="140" y="154" fill="#ffffff" fill-opacity="0.92">Agent 底层开发 · 工具 / 环境 / 记忆 / 上下文 / 可观测性</text>
+
+    <text x="52" y="188" fill="#f9a8d4" font-weight="700">stack</text>
+    <text x="140" y="188" fill="#ffffff" fill-opacity="0.92">Java · Python · JavaScript · React · FastAPI · MySQL</text>
+
+    <text x="52" y="222" fill="#c4b5fd" font-weight="700">school</text>
+    <text x="140" y="222" fill="#ffffff" fill-opacity="0.92">中原工学院 · 软件工程</text>
+
+    <text x="52" y="256" fill="#6ee7b7" font-weight="700">status</text>
+    <text x="140" y="256" fill="#ffffff" fill-opacity="0.92">让智能体真正跑在生产里：底层扎实、可观测、可恢复</text>
+  </g>
+</svg>
