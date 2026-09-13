@@ -7,16 +7,37 @@
       <stop offset="0" stop-color="#33333f" stop-opacity="0.60"/>
       <stop offset="1" stop-color="#0a0a10" stop-opacity="0.72"/>
     </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
     <radialGradient id="b1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
     <radialGradient id="b2"><stop offset="0" stop-color="#f472b6"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
     <radialGradient id="b3"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="bubble"><stop offset="0" stop-color="#ffffff" stop-opacity="0.45"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
   </defs>
 
-  <circle cx="110" cy="50" r="110" fill="url(#b1)" filter="url(#blur)"/>
-  <circle cx="760" cy="240" r="120" fill="url(#b2)" filter="url(#blur)"/>
-  <circle cx="720" cy="40" r="90" fill="url(#b3)" filter="url(#blur)"/>
+  <circle cx="110" cy="50" r="110" fill="url(#b1)" filter="url(#blur)">
+    <animate attributeName="cx" values="110;220;110" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="50;110;50" dur="13s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="760" cy="240" r="120" fill="url(#b2)" filter="url(#blur)">
+    <animate attributeName="cy" values="240;160;240" dur="15s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="720" cy="40" r="90" fill="url(#b3)" filter="url(#blur)">
+    <animate attributeName="cx" values="720;600;720" dur="14s" repeatCount="indefinite"/>
+  </circle>
 
-  <rect x="16" y="14" width="818" height="258" rx="30" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.26" stroke-width="1.5"/>
+  <!-- 玻璃面板：呼吸描边 -->
+  <rect x="16" y="14" width="818" height="258" rx="30" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.26" stroke-width="1.5">
+    <animate attributeName="stroke-opacity" values="0.26;0.5;0.26" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- 扫过的高光 -->
+  <rect x="-200" y="14" width="220" height="258" fill="url(#sweep)" rx="30">
+    <animate attributeName="x" values="-220;860" dur="7s" repeatCount="indefinite"/>
+  </rect>
 
   <text x="52" y="66" font-family="Segoe UI, PingFang SC, sans-serif" font-size="24" font-weight="700" fill="#f4f4f8">🔮 About Me</text>
   <line x1="52" y1="84" x2="798" y2="84" stroke="#ffffff" stroke-opacity="0.20"/>
@@ -37,4 +58,14 @@
     <text x="52" y="256" fill="#6ee7b7" font-weight="700">status</text>
     <text x="140" y="256" fill="#ececf2">让智能体真正跑在生产里：底层扎实、可观测、可恢复</text>
   </g>
+
+  <!-- 右下角上浮气泡 -->
+  <circle cx="790" cy="260" r="5" fill="url(#bubble)">
+    <animate attributeName="cy" values="265;100" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.85;0" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="265" r="3.5" fill="url(#bubble)">
+    <animate attributeName="cy" values="268;110" dur="6.5s" begin="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0" dur="6.5s" begin="3s" repeatCount="indefinite"/>
+  </circle>
 </svg>

@@ -1,8 +1,8 @@
-<img src="https://cdn.jsdelivr.net/gh/whitequeen306/whitequeen306@main/glass-banner.svg" width="100%" alt="胡俊成 - Agent Engineer"/>
+<img src="https://cdn.jsdelivr.net/gh/whitequeen306/whitequeen306@main/glass-banner.svg?v=2" width="100%" alt="胡俊成 - Agent Engineer"/>
 
 <h2>🔮 About Me</h2>
 
-<img src="https://cdn.jsdelivr.net/gh/whitequeen306/whitequeen306@main/glass-about.svg" width="100%" alt="About Me"/>
+<img src="https://cdn.jsdelivr.net/gh/whitequeen306/whitequeen306@main/glass-about.svg?v=2" width="100%" alt="About Me"/>
 
 <!-- 纯文本速览（可访问性 / 搜索友好）
 name: 胡俊成（whitequeen306）
