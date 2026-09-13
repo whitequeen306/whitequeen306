@@ -1,8 +1,8 @@
-<img src="glass-banner.svg" width="100%" alt="胡俊成 - Agent Engineer"/>
+<img src="https://cdn.jsdelivr.net/gh/whitequeen306/whitequeen306@main/glass-banner.svg" width="100%" alt="胡俊成 - Agent Engineer"/>
 
 <h2>🔮 About Me</h2>
 
-<img src="glass-about.svg" width="100%" alt="About Me"/>
+<img src="https://cdn.jsdelivr.net/gh/whitequeen306/whitequeen306@main/glass-about.svg" width="100%" alt="About Me"/>
 
 <!-- 纯文本速览（可访问性 / 搜索友好）
 name: 胡俊成（whitequeen306）
@@ -29,5 +29,5 @@ school: 中原工学院 · 软件工程
 
 <p>
   <img height="165" src="https://streak-stats.demolab.com?user=whitequeen306&hide_border=true&background=00000000&ring=6366f1&fire=f472b6&currStreakLabel=22d3ee&sideLabels=6b7280&dates=9ca3af"/>
-  <img align="top" height="340" src="stats.svg"/>
+  <img align="top" height="340" src="https://cdn.jsdelivr.net/gh/whitequeen306/whitequeen306@main/stats.svg"/>
 </p>
