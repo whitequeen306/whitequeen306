@@ -24,10 +24,3 @@ school: 中原工学院 · 软件工程
 <img src="https://img.shields.io/badge/RAG-f472b6?style=for-the-badge&labelColor=500724"/>&nbsp;
 <img src="https://img.shields.io/badge/LLM_可观测性-a78bfa?style=for-the-badge&labelColor=2e1065"/>&nbsp;
 <img src="https://img.shields.io/badge/Playwright-6ee7b7?style=for-the-badge&labelColor=064e3b"/>
-
-<h2>📊 GitHub Stats</h2>
-
-<p>
-  <img height="165" src="https://streak-stats.demolab.com?user=whitequeen306&hide_border=true&background=00000000&ring=6366f1&fire=f472b6&currStreakLabel=22d3ee&sideLabels=6b7280&dates=9ca3af"/>
-  <img align="top" height="340" src="https://cdn.jsdelivr.net/gh/whitequeen306/whitequeen306@main/stats.svg"/>
-</p>
