@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="340" viewBox="0 0 520 340">
+  <defs>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#33333f" stop-opacity="0.60"/>
+      <stop offset="1" stop-color="#0a0a10" stop-opacity="0.72"/>
+    </linearGradient>
+    <radialGradient id="b1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b2"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b3"><stop offset="0" stop-color="#f472b6"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+    <linearGradient id="lbar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6366f1"/><stop offset="0.5" stop-color="#22d3ee"/><stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="60" cy="40" r="80" fill="url(#b1)" filter="url(#blur)"/>
+  <circle cx="470" cy="300" r="90" fill="url(#b2)" filter="url(#blur)"/>
+  <circle cx="450" cy="30" r="70" fill="url(#b3)" filter="url(#blur)"/>
+
+  <rect x="10" y="10" width="500" height="320" rx="26" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.26" stroke-width="1.5"/>
+
+  <text x="40" y="58" font-family="Segoe UI, PingFang SC, sans-serif" font-size="20" font-weight="700" fill="#f4f4f8">📊 GitHub Stats</text>
+  <line x1="40" y1="74" x2="480" y2="74" stroke="#ffffff" stroke-opacity="0.20"/>
+
+  <g font-family="Consolas, monospace" text-anchor="middle">
+    <text x="105" y="128" font-size="28" font-weight="700" fill="#a5b4fc">31</text>
+    <text x="105" y="150" font-size="12" fill="#9ca3af">Total Stars</text>
+    <text x="245" y="128" font-size="28" font-weight="700" fill="#67e8f9">63</text>
+    <text x="245" y="150" font-size="12" fill="#9ca3af">Contributions 2026</text>
+    <text x="395" y="128" font-size="28" font-weight="700" fill="#f9a8d4">13</text>
+    <text x="395" y="150" font-size="12" fill="#9ca3af">Repositories</text>
+  </g>
+
+  <line x1="40" y1="176" x2="480" y2="176" stroke="#ffffff" stroke-opacity="0.14"/>
+
+  <g font-family="Consolas, monospace" font-size="12" fill="#ececf2">
+    <text x="40" y="204">My Languages</text>
+  </g>
+  <rect x="40" y="216" width="440" height="10" rx="5" fill="url(#lbar)"/>
+  <g font-family="Consolas, monospace" font-size="12">
+    <circle cx="46" cy="248" r="4" fill="#f1e05a"/><text x="58" y="252" fill="#ececf2">JavaScript 36%</text>
+    <circle cx="196" cy="248" r="4" fill="#b07219"/><text x="208" y="252" fill="#ececf2">Java 27%</text>
+    <circle cx="326" cy="248" r="4" fill="#3572A5"/><text x="338" y="252" fill="#ececf2">Python 18%</text>
+    <circle cx="456" cy="248" r="4" fill="#e34c26"/><text x="448" y="272" fill="#ececf2">HTML 9%</text>
+    <circle cx="58" cy="272" r="4" fill="#dea584"/><text x="70" y="276" fill="#ececf2">Rust 9%</text>
+  </g>
+
+  <g font-family="Consolas, monospace" font-size="12" fill="#9ca3af">
+    <text x="40" y="308">⭐ 31 stars · 🌱 63 contributions · 👥 5 followers</text>
+  </g>
+</svg>
