@@ -28,7 +28,6 @@ school: 中原工学院 · 软件工程
 <h2>📊 GitHub Stats</h2>
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=whitequeen306&show_icons=true&hide_border=true&bg_color=00000000&title_color=6366f1&icon_color=22d3ee&text_color=6b7280"/>
   <img height="165" src="https://streak-stats.demolab.com?user=whitequeen306&hide_border=true&background=00000000&ring=6366f1&fire=f472b6&currStreakLabel=22d3ee&sideLabels=6b7280&dates=9ca3af"/>
+  <img align="top" height="340" src="stats.svg"/>
 </p>
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=whitequeen306&layout=compact&hide_border=true&bg_color=00000000&title_color=6366f1&text_color=6b7280"/>
